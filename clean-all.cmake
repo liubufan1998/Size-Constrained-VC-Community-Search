@@ -1,0 +1,6 @@
+file(GLOB_RECURSE CMAKE_FILES "E:/C++ workspace/20250710 SVC-TD-for-Github/build/*")
+foreach(file ${CMAKE_FILES})
+    if(${file} MATCHES "CMakeFiles|cmake_install.cmake|CMakeCache.txt|Makefile|.cmake$")
+        file(REMOVE_RECURSE ${file})
+    endif()
+endforeach()

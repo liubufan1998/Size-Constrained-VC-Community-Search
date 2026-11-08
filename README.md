@@ -2,11 +2,17 @@
 
 This repository implements **SVC-TD**, the top-down exact algorithm proposed in our paper:
 
-**Size-Constrained Community Search via Vertex Connectivity Maximization**
+**Maximizing Robustness to Vertex Failures in Size-Constrained Community Search**
 
 Given an undirected graph, a query vertex, and a size range, the goal is to find a connected query-containing community whose size satisfies the given constraint and whose vertex connectivity is maximized.
 
 The implementation also uses **SVC-Heu** to obtain an initial feasible community and the corresponding lower bound before the exact search.
+
+## Technical report
+
+[Read or download the full technical report (PDF)](docs/SVC-Technical-Report.pdf).
+
+The report includes the complete paper, references, proofs, and additional experiments (17 pages).
 
 ## Compile the code
 
